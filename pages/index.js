@@ -51,7 +51,7 @@ export default () => {
           <label htmlFor="address">Home address</label>
           <input type="text" name="address" onChange={onChange} />
         </div>
-        <input type="submit" />
+        <input type="submit" onClick={onSubmit} />
       </form>
       {value}
       <footer>
