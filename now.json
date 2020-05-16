@@ -1,6 +1,0 @@
-{
-  "version": 2,
-  "alias": "usrep",
-  "name": "rep",
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
-}
