@@ -1,5 +1,4 @@
 import { find } from 'lodash'
-import fetch from 'isomorphic-unfetch'
 
 export default (req, res) => {
   const { address } = req.query

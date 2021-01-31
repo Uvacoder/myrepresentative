@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import fetch from 'isomorphic-unfetch'
+import { useState } from 'react'
 import Head from 'next/head'
 import Profile from '../components/profile'
 import { colors } from '../components/theme'
@@ -39,7 +38,7 @@ export default () => {
         />
         <meta property="og:title" content="Find Your Rep" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://usrep.now.sh/" />
+        <meta property="og:url" content="https://usrep.vercel.app/" />
         <meta
           property="description"
           content="Find and contact your Congressional Representative."
@@ -55,7 +54,7 @@ export default () => {
       </form>
       {value}
       <footer>
-        Made by <a href="https://lachlanjc.me">@lachlanjc</a> on{' '}
+        Made by <a href="https://lachlanjc.com">@lachlanjc</a> on{' '}
         <a href="https://glitch.com/~usrep">Glitch</a>
       </footer>
       <style jsx global>{`
@@ -65,7 +64,7 @@ export default () => {
         body {
           background-color: ${colors.dark};
           color: ${colors.white};
-          font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+          font-family: ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
           line-height: 1.66;
           margin: 0;
           display: flex;
