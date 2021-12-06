@@ -54,8 +54,7 @@ export default () => {
       </form>
       {value}
       <footer>
-        Made by <a href="https://lachlanjc.com">@lachlanjc</a> on{' '}
-        <a href="https://glitch.com/~usrep">Glitch</a>
+        Made by <a href="https://github.com/uvacoder">@uvacoder</a>
       </footer>
       <style jsx global>{`
         * {
