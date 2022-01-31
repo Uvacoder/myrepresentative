@@ -61,7 +61,7 @@ export default () => {
           box-sizing: border-box;
         }
         body {
-          background-color: ${colors.dark};
+          background-color: #7CF3EB;
           color: ${colors.white};
           font-family: ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
           line-height: 1.66;
